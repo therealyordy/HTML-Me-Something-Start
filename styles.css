@@ -32,9 +32,6 @@ ul{
     text-align: right;
 }
 
-#left{
-    text-align: left;
-}
 
 .leftpic {
     max-width: 40%;
@@ -44,12 +41,6 @@ ul{
     
 }
 
-.rightpic {
-    max-width: 25%;
-    height: auto;
-    float: right;
-    padding: 0px 5px 5px;
-}
 
 article{
     padding: 30px 30px 20px
@@ -73,15 +64,4 @@ p{
     left: 0;
     opacity: 35%;
     width: 300px;
-}
-
-
-
-h3{
-    font-weight: 100;
-    font-style: italic;
-    color: #293241;
-    padding: 5px 0px 0px;
-    font-size: 20px;
-    
 }
