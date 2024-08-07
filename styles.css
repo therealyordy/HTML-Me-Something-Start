@@ -1,81 +1,87 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: montserrat;
+html {
+    display: block;
+    padding: 0px 25% 0px;
 }
-html{
-    scroll-behavior: smooth;
+body{
+    background-image: linear-gradient(90deg, rgb(189, 189, 189) 25%, white 25%, white 75%, rgb(189, 189, 189) 75%);
+    background-size: 100% 100%;
+    margin: 8px;
 }
-.menu-area {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: beige;
-    width: 100%;
-    height: 70px;
-    z-index: 1;
-}
-.nav {
-    display: flex;
-    justify-content: right;
-    list-style: none;
-    margin-right: 15%;
-}
-.logo {
-    flex: 1 1 auto;
-    margin-left: 10%;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 25px;
-}
-a {
-    margin: 15px;
-    color: black;
-    text-transform: uppercase;
-}
-#home {
-    position: relative;
-    background-image: url(./pexels-islandhopper-x-339537771-17816414.jpg);
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    text-align: center;
 
+li{
+    display: inline;
 }
-#home .content {
-    width: 100%;
+ul{
+    text-align: center;
+    width: auto;
 }
-#home .content h1 {
-    font-size: 60px;
-    margin: 10px 0;
-    color: yellow;
+
+#mainHeading{
+    text-align:center;
+    color: red;
+    padding: 50px 50px 0px;
 }
-#home, #about, #location {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 100vh;
+
+.funParagraph{
+    color: green;
+    text-align: center;
+    padding: 50px 50px 50px;
 }
-.content {
-    width: 80%;
-    height: 100%;
-    padding: 15% 0;
+
+#right{
+    text-align: right;
 }
-.content h1 {
-    font-size: 30px;
-    text-transform: uppercase;
+
+#left{
+    text-align: left;
 }
-.content p {
-    font-size: 24px;
-    line-height: 50px;
+
+.leftpic {
+    max-width: 40%;
+    height: auto;
+    float: left;
+    padding: 0px 5px 5px;
+    
+}
+
+.rightpic {
+    max-width: 25%;
+    height: auto;
+    float: right;
+    padding: 0px 5px 5px;
+}
+
+article{
+    padding: 30px 30px 20px
+}
+
+hr.dotted {
+    border-top: 3px solid #000000;
+    padding: 0px 0px 0px 0px;
+}
+
+p{
+    padding: 5px 5px 5px;
+    display: block;
+    font-size: 16px;
+    
+}
+
+.absleft{
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 35%;
+    width: 300px;
+}
+
+
+
+h3{
+    font-weight: 100;
+    font-style: italic;
+    color: #293241;
+    padding: 5px 0px 0px;
+    font-size: 20px;
+    
 }
